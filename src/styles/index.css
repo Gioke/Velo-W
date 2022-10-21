@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: VeloFont;
+  src: url(/src/images/fonts/Technopollas.otf);
+}
+
+*{
+    font-family: 'Arial', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ h4 {
+    font-family: 'VeloFont', sans-serif;
+
+ }
+
+ h1 {
+     font-family: 'VeloFont', sans-serif;
+
+ }

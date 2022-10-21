@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import { FaInstagram, FaFacebookF, FaRegEnvelope, FaPhoneAlt} from  'react-icons/fa';
 export const Footer = () => {
     return(
@@ -9,7 +8,7 @@ export const Footer = () => {
                 <br />
                 <p className="text-white flex col-start-2">Problemen met je fiets of op zoek naar iets nieuws? <br/> Kom even langs ik help je graag verder:</p>
                 <div className="text-white mt-4 flex">
-                    <a href="https://www.instagram.com/velow_maldegem/" target="_blank"><FaInstagram class="instagram mb-2 text-2xl mr-2 hover:text-amber-500 hover:cursor-pointer"/></a> <a href="https://www.facebook.com/velow_maldegem-103972768951724" target="_blank"><FaFacebookF class="facebook mb-4 text-2xl mr-2 hover:text-amber-500 hover:cursor-pointer"/></a> <a href="mailto: VandenBosscheWouter@hotmail.be" target="_blank"><FaRegEnvelope class="whatsapp mb-2 text-2xl mr-2 hover:text-amber-500 hover:cursor-pointer" /></a> <a href="tel::0486/34.56.17"><FaPhoneAlt class="whatsapp mb-2 text-2xl hover:text-amber-500 hover:cursor-pointer" /></a>
+                    <a href="https://www.instagram.com/velow_maldegem/" target="_blank" rel="noreferrer" ><FaInstagram class="instagram mb-2 text-2xl mr-2 hover:text-amber-500 hover:cursor-pointer"/></a> <a href="https://www.facebook.com/velow_maldegem-103972768951724" target="_blank" rel="noreferrer" ><FaFacebookF class="facebook mb-4 text-2xl mr-2 hover:text-amber-500 hover:cursor-pointer"/></a> <a href="mailto: VandenBosscheWouter@hotmail.be" target="_blank" rel="noreferrer" ><FaRegEnvelope class="whatsapp mb-2 text-2xl mr-2 hover:text-amber-500 hover:cursor-pointer" /></a> <a href="tel::0486/34.56.17"><FaPhoneAlt class="whatsapp mb-2 text-2xl hover:text-amber-500 hover:cursor-pointer" /></a>
                 </div>
             </div>
             <div className="mb-10">

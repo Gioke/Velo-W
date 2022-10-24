@@ -1,0 +1,57 @@
+.contact-title {
+    font-weight: 800;
+    font-size: 1.8rem;
+    line-height: 2.25rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: #f59e0b;
+}
+
+.form-container {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-naam {
+    border: solid gray 1px;
+    margin-top: 0.5rem;
+}
+
+.form-mail {
+    border: solid gray 1px;
+    margin-top: 0.5rem;
+}
+
+.form-telefoon {
+    border: solid gray 1px;
+    margin-top: 0.5rem;
+}
+
+.form-text {
+    display: block;
+    border: solid gray 1px;
+    height: 300px;
+    width: 50%;
+    margin: 0.5rem auto;
+
+}
+
+.button-container {
+    margin: auto;
+    border: solid gray 1px;
+    border-radius: 25px;
+    width: 100px;
+    text-align: center;
+}
+
+.button-container:hover {
+    cursor: pointer;
+    color: grey;
+}

@@ -39,3 +39,10 @@ p {
     cursor: pointer;
 }
 
+.copyright {
+    color: gray;
+    font-size: 0.8rem;
+    margin-top: 2.5rem;
+    margin-right: 3rem;
+}
+

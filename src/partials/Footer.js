@@ -41,7 +41,7 @@ export const Footer = () => {
 
                 </ul>
                 <div className="flex col-end">
-                    <p className="text-gray-300 text-sm mt-10 mr-12">Copyright © Vélo-W  2022</p>
+                    <p className="copyright">Copyright © Vélo-W  2022</p>
                 </div>
             </div>
 

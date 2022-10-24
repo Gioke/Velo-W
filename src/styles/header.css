@@ -1,0 +1,33 @@
+.nav-container {
+    background: black;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.text-logo img {
+    width: 150px;
+    height: 60px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.header-li {
+    color: white;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.header-li:hover {
+    text-decoration: underline;
+    text-decoration-color: #f59e0b;
+    text-underline-offset: 8px;
+}

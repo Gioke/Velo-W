@@ -1,0 +1,10 @@
+.Headpicture {
+    height: 400px;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container {
+    background: #201f1f;
+}

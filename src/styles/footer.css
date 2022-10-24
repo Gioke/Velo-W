@@ -1,0 +1,41 @@
+.footer-container {
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+}
+
+.footer-contact {
+    width: 15rem;
+}
+
+h4 {
+    color: rgb(245 158 11);
+    text-decoration: underline;
+    margin-top: 1rem;
+}
+
+p {
+    color: white;
+}
+
+.footer-socials {
+    color: white;
+    margin-top: 1rem;
+    display: flex;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.footer-call {
+    margin-left: 0.5rem;
+}
+
+.footer-instagram:hover,
+.footer-facebook:hover,
+.footer-mail:hover,
+.footer-call:hover {
+    color: rgb(245 158 11);
+    cursor: pointer;
+}
+
